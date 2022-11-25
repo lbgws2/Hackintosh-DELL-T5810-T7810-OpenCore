@@ -1250,7 +1250,7 @@
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string>-v npci=0x2000</string>
+                    <string>npci=0x2000</string>
                     <key>csr-active-config</key>
                     <data>AwAAAA==</data>
                     <key>prev-lang:kbd</key>
@@ -1315,7 +1315,7 @@
                 <key>AdviseFeatures</key>
                 <false/>
                 <key>MLB</key>
-                <string>C000000000000000A</string>
+                <string></string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
@@ -1329,9 +1329,9 @@
                 <key>SystemProductName</key>
                 <string>iMacPro1,1</string>
                 <key>SystemSerialNumber</key>
-                <string>C00000000007</string>
+                <string></string>
                 <key>SystemUUID</key>
-                <string>50000000-0000-4000-B000-F00000000000</string>
+                <string></string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>

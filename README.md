@@ -1,16 +1,16 @@
-# DELL-T5810-OpenCore (Monterey/Ventura Support)
- DELL T5810 OpenCore 0.8.4
+# DELL-T5810-OpenCore/DELL-T7810-OpenCore (Big Sur/Monterey/Ventura Support)
+ DELL T5810 / DELL T7810 OpenCore 0.8.4
  Support macOS Big Sur/Monterey/Ventura.
 
 # About this EFI
 
-OpenCore loader (0.8.4) for DELL workstations T5810 (reported to also work on T7810). Support macOS Big Sur to Ventura.
+OpenCore loader (0.8.4) for DELL workstations T5810 and T7810. Support macOS Big Sur to Ventura.
 
 Adding ResetTSCAdjust.efi driver to perform TSC Reset, required to solve the kernel panic during Monterey/Ventura booting.
 
 **Supported Hardware**
 
-- T5810 (BIOS A33)
+- T5810/T7810 (BIOS A33)
 - CPUs: E5-1600/2600 V3 & V4 Xeons (Hanswell/Broadwell)
 - Required BIOS Settings: SATA Operation -> AHCI, Secure Boot Enable -> Disabled, VT for Direct I/O -> Disabled.
 
