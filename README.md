@@ -1,10 +1,10 @@
 # DELL-T5810-OpenCore/DELL-T7810-OpenCore (Big Sur/Monterey/Ventura Support)
- DELL T5810 / DELL T7810 OpenCore 0.8.4
+ DELL T5810 / DELL T7810 OpenCore 0.8.6
  Support macOS Big Sur/Monterey/Ventura.
 
 # About this EFI
 
-OpenCore loader (0.8.4) for DELL workstations T5810 and T7810. Support macOS Big Sur to Ventura.
+OpenCore loader (0.8.6) for DELL workstations T5810 and T7810. Support macOS Big Sur to Ventura.
 
 Adding ResetTSCAdjust.efi driver to perform TSC Reset, required to solve the kernel panic during Monterey/Ventura booting.
 
@@ -31,8 +31,8 @@ Adding ResetTSCAdjust.efi driver to perform TSC Reset, required to solve the ker
 
 **EFI Folder**
 
-- OpenCore 0.8.4
-- SYMBIOS: iMacPro1,1
+- OpenCore 0.8.6
+- SYMBIOS: MacPro7,1
 
 - ACPI folder:
 	- SSDT-EC.aml - Fix Embedded Controller, via OC Guide
@@ -48,6 +48,7 @@ Adding ResetTSCAdjust.efi driver to perform TSC Reset, required to solve the ker
 	- WhateverGreen.kext
 	- VirtualSMC.kext
 	- AppleALC.kext - On-board Audio (Layout ID 11)
+        - AppleMCEReporterDisabler.kext - Needed if you have a dual socket intel
 	- CpuTscSync.kext - CPU TSC sync (fix TSC out of sync from wake/sleep)
 	- IntelMausi.kext - Intel LAN port driver
 	- USBMap.kext - Custom USB port maps for T5810
